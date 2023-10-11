@@ -1,0 +1,108 @@
+.header {
+    font-family: Helvetica, "Sans-serif";
+    font-weight: bold;
+    text-align: center;
+}
+
+.colours {
+    margin: 10px;
+    border: 2px solid;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+#colour1, #colour2, #colour3, #colour4, #colour5 {
+    margin: 5px;
+    text-align: center;
+    width: 19%;
+    display: inline-block;
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family: Helvetica;
+}
+
+#colour1 {
+    background-color: rgb(58, 170, 6);
+    margin-left: 10px;
+}
+
+#colour2 {
+    background-color: rgb(74, 84, 195);
+}
+
+#colour3 {
+    background-color: rgb(158, 33, 133);
+}
+
+#colour4 {
+    background-color: rgb(209, 209, 34);
+}
+
+#colour5 {
+    background-color: rgb(234, 234, 182);
+}
+
+.fonts {
+    margin: 10px;
+    border: 2px solid;
+    padding: 10px;
+}
+
+#textstyles {
+    margin: 10px;
+    border: 2px solid;
+    padding: 10px;
+}
+
+#roboto, #kanit, #sourcecodepro {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+}
+
+.fontname {
+    text-decoration: underline;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#roboto {
+    font-family: roboto;
+}
+
+#kanit {
+    font-family: kanit;
+}
+
+#sourcecodepro {
+    font-family: "Source code pro";
+}
+
+#mainhead {
+    font-weight: 700;
+    font-size: 26px;
+    font-family: Roboto;
+}
+
+#subhead {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: Kanit;
+}
+
+#para {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: "Source code pro";
+}
+
+#mainhead, #subhead, #para {
+    display: inline-block;
+    padding-left: 20px;
+}
